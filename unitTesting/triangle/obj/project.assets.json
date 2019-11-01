@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Uchiha\\.nuget\\packages\\": {},
+    "C:\\Users\\Leonid\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Учеба\\курс 3\\тестирование\\firstTestingTask\\unitTesting\\triangle\\triangle.csproj",
+      "projectUniqueName": "D:\\Labs\\k3s1\\Тестирование\\unitTesting\\triangle\\triangle.csproj",
       "projectName": "triangle",
-      "projectPath": "D:\\Учеба\\курс 3\\тестирование\\firstTestingTask\\unitTesting\\triangle\\triangle.csproj",
-      "packagesPath": "C:\\Users\\Uchiha\\.nuget\\packages\\",
-      "outputPath": "D:\\Учеба\\курс 3\\тестирование\\firstTestingTask\\unitTesting\\triangle\\obj\\",
+      "projectPath": "D:\\Labs\\k3s1\\Тестирование\\unitTesting\\triangle\\triangle.csproj",
+      "packagesPath": "C:\\Users\\Leonid\\.nuget\\packages\\",
+      "outputPath": "D:\\Labs\\k3s1\\Тестирование\\unitTesting\\triangle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Uchiha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Leonid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -729,6 +729,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

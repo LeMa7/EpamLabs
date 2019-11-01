@@ -1649,9 +1649,6 @@
       "triangle/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Microsoft.NETCore.App": "2.1.0"
-        },
         "compile": {
           "bin/placeholder/triangle.dll": {}
         },
@@ -3074,7 +3071,7 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+      "sha512": "KMVuoQ+8bMQ/Z59M3s64num5AD74X5YSqVc7ibwGkPTfmmkl2W8VuSxLRJtpw4KzQrSKUgR0BLbF0adPfcTSGQ==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
@@ -3112,7 +3109,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
+      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
@@ -5771,23 +5768,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Uchiha\\.nuget\\packages\\": {},
+    "C:\\Users\\Leonid\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Учеба\\курс 3\\тестирование\\firstTestingTask\\unitTesting\\testsForTriangle\\testsForTriangle.csproj",
+      "projectUniqueName": "D:\\Labs\\k3s1\\Тестирование\\unitTesting\\testsForTriangle\\testsForTriangle.csproj",
       "projectName": "testsForTriangle",
-      "projectPath": "D:\\Учеба\\курс 3\\тестирование\\firstTestingTask\\unitTesting\\testsForTriangle\\testsForTriangle.csproj",
-      "packagesPath": "C:\\Users\\Uchiha\\.nuget\\packages\\",
-      "outputPath": "D:\\Учеба\\курс 3\\тестирование\\firstTestingTask\\unitTesting\\testsForTriangle\\obj\\",
+      "projectPath": "D:\\Labs\\k3s1\\Тестирование\\unitTesting\\testsForTriangle\\testsForTriangle.csproj",
+      "packagesPath": "C:\\Users\\Leonid\\.nuget\\packages\\",
+      "outputPath": "D:\\Labs\\k3s1\\Тестирование\\unitTesting\\testsForTriangle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Uchiha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Leonid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5800,8 +5797,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Учеба\\курс 3\\тестирование\\firstTestingTask\\unitTesting\\triangle\\triangle.csproj": {
-              "projectPath": "D:\\Учеба\\курс 3\\тестирование\\firstTestingTask\\unitTesting\\triangle\\triangle.csproj"
+            "D:\\Labs\\k3s1\\Тестирование\\unitTesting\\triangle\\triangle.csproj": {
+              "projectPath": "D:\\Labs\\k3s1\\Тестирование\\unitTesting\\triangle\\triangle.csproj"
             }
           }
         }
@@ -5820,6 +5817,7 @@
             "version": "[15.8.0, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

@@ -20,3 +20,14 @@ D:\Учеба\курс 3\тестирование\firstTestingTask\unitTesting\t
 D:\Учеба\курс 3\тестирование\firstTestingTask\unitTesting\triangle\obj\Debug\netcoreapp2.1\triangle.AssemblyInfo.cs
 D:\Учеба\курс 3\тестирование\firstTestingTask\unitTesting\triangle\obj\Debug\netcoreapp2.1\triangle.dll
 D:\Учеба\курс 3\тестирование\firstTestingTask\unitTesting\triangle\obj\Debug\netcoreapp2.1\triangle.pdb
+D:\Labs\k3s1\Тестирование\unitTesting\triangle\bin\Debug\netcoreapp2.1\triangle.deps.json
+D:\Labs\k3s1\Тестирование\unitTesting\triangle\bin\Debug\netcoreapp2.1\triangle.runtimeconfig.json
+D:\Labs\k3s1\Тестирование\unitTesting\triangle\bin\Debug\netcoreapp2.1\triangle.runtimeconfig.dev.json
+D:\Labs\k3s1\Тестирование\unitTesting\triangle\bin\Debug\netcoreapp2.1\triangle.dll
+D:\Labs\k3s1\Тестирование\unitTesting\triangle\bin\Debug\netcoreapp2.1\triangle.pdb
+D:\Labs\k3s1\Тестирование\unitTesting\triangle\obj\Debug\netcoreapp2.1\triangle.csprojAssemblyReference.cache
+D:\Labs\k3s1\Тестирование\unitTesting\triangle\obj\Debug\netcoreapp2.1\triangle.csproj.CoreCompileInputs.cache
+D:\Labs\k3s1\Тестирование\unitTesting\triangle\obj\Debug\netcoreapp2.1\triangle.AssemblyInfoInputs.cache
+D:\Labs\k3s1\Тестирование\unitTesting\triangle\obj\Debug\netcoreapp2.1\triangle.AssemblyInfo.cs
+D:\Labs\k3s1\Тестирование\unitTesting\triangle\obj\Debug\netcoreapp2.1\triangle.dll
+D:\Labs\k3s1\Тестирование\unitTesting\triangle\obj\Debug\netcoreapp2.1\triangle.pdb

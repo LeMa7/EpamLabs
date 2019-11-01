@@ -34,3 +34,21 @@ D:\Учеба\курс 3\тестирование\firstTestingTask\unitTesting\t
 D:\Учеба\курс 3\тестирование\firstTestingTask\unitTesting\testsForTriangle\obj\Debug\netcoreapp2.1\testsForTriangle.csproj.CopyComplete
 D:\Учеба\курс 3\тестирование\firstTestingTask\unitTesting\testsForTriangle\obj\Debug\netcoreapp2.1\testsForTriangle.dll
 D:\Учеба\курс 3\тестирование\firstTestingTask\unitTesting\testsForTriangle\obj\Debug\netcoreapp2.1\testsForTriangle.pdb
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\bin\Debug\netcoreapp2.1\testsForTriangle.deps.json
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\bin\Debug\netcoreapp2.1\testsForTriangle.runtimeconfig.json
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\bin\Debug\netcoreapp2.1\testsForTriangle.runtimeconfig.dev.json
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\bin\Debug\netcoreapp2.1\testsForTriangle.dll
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\bin\Debug\netcoreapp2.1\testsForTriangle.pdb
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\bin\Debug\netcoreapp2.1\triangle.dll
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\bin\Debug\netcoreapp2.1\triangle.pdb
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\obj\Debug\netcoreapp2.1\testsForTriangle.csprojAssemblyReference.cache
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\obj\Debug\netcoreapp2.1\testsForTriangle.csproj.CoreCompileInputs.cache
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\obj\Debug\netcoreapp2.1\testsForTriangle.AssemblyInfoInputs.cache
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\obj\Debug\netcoreapp2.1\testsForTriangle.AssemblyInfo.cs
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\obj\Debug\netcoreapp2.1\testsForTriangle.csproj.CopyComplete
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\obj\Debug\netcoreapp2.1\testsForTriangle.dll
+D:\Labs\k3s1\Тестирование\unitTesting\testsForTriangle\obj\Debug\netcoreapp2.1\testsForTriangle.pdb
