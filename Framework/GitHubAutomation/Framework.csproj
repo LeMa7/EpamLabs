@@ -89,6 +89,7 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="ConfigFiles\log4net.config" />
     <None Include="ConfigFiles\dev.config" />
     <None Include="ConfigFiles\qa.config" />
     <None Include="packages.config" />

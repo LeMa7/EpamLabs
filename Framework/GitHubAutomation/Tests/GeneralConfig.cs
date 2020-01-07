@@ -4,6 +4,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Support.Extensions;
 using NUnit.Framework;
 using Framework.Driver;
+using GitHubAutomation.Utils;
 
 namespace Framework.Tests
 {
@@ -14,6 +15,7 @@ namespace Framework.Tests
         [SetUp]
         public void SetDriver()
         {
+            Logger.InitLogger();
             Driver = DriverSingleton.GetDriver();
             Driver.Navigate().GoToUrl("https://skymann.com/waawo/?wurl=/orders_flights/enter_data/f84b9e1992/429f48260f3c13a487db348aa370bf817e4e033d");
         }
