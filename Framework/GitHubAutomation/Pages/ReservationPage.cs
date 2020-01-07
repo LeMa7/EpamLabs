@@ -19,7 +19,7 @@ namespace PageObject.PageObjects
         [FindsBy(How = How.XPath, Using = "//*[@id='OrdersFlightsPassengers1Surname']")]
         public IWebElement surnameInput;
 
-        [FindsBy(How = How.XPath, Using = "//*[@id='OrdersFlightsEnterDataForm']/div[2]/div[2]/div[3]/div[1]/div/div")]
+        [FindsBy(How = How.XPath, Using = "//*[@id='OrdersFlightsEmail']")]
         public IWebElement emailInput;
 
         [FindsBy(How = How.XPath, Using = "//button[@class='btn btn-success btn-lg ladda-button']")]
@@ -60,7 +60,7 @@ namespace PageObject.PageObjects
 
         public IWebElement GetSurnameError()
         {
-            return GetElement("//*[@id='OrdersFlightsEnterDataForm']/div[2]/div[2]/div[3]/div[1]/div/div");
+            return GetElement("//*[@id='OrdersFlightsEnterDataForm']/div[2]/div[2]/div[2]/div[2]/div/div");
         }
 
         public IWebElement GetEmailError()

@@ -6,9 +6,11 @@ using PageObject.PageObjects;
 namespace Framework.Tests
 {
     [TestFixture]
+    [Category("All")]
     public class WebTests : GeneralConfig
     {
         [Test]
+        [Category("RussianWords")]
         public void RussianWordInNameInput()
         {
             SaveScreenshotOnTestFailure(() =>
@@ -18,11 +20,12 @@ namespace Framework.Tests
                     .ClickOnConditionsCheckBox()
                     .FillUserData(UserDataCreator.FillUser())
                     .ClickOnSubmitButton();
-                Assert.AreEqual("Пожалуйста, введите правильное имя", reservationPage.GetNameError());
+                Assert.AreEqual("Пожалуйста, введите правильное имя", reservationPage.GetNameError().Text);
             });
         }
 
         [Test]
+        [Category("DontChoose")]
         public void NoConditions()
         {
             SaveScreenshotOnTestFailure(() =>
@@ -36,20 +39,22 @@ namespace Framework.Tests
         }
 
         [Test]
-        public void RussianWordInSecondNameInput()
+        [Category("RussianWords")]
+        public void RussianWordInSurnameInput()
         {
             SaveScreenshotOnTestFailure(() =>
             {
-                Logger.Log.Info("Start \"RussianWordInSecondNameInput\" test");
+                Logger.Log.Info("Start \"RussianWordInSurnameInput\" test");
                 var reservationPage = new ReservationPage(Driver)
                     .ClickOnConditionsCheckBox()
                     .FillUserData(UserDataCreator.FillUser())
                     .ClickOnSubmitButton();
-                Assert.AreEqual("Пожалуйста, введите правильное имя", reservationPage.GetSurnameError());
+                Assert.AreEqual("Слишком длинное имя/фамилия. Свяжитесь с нами по телефону", reservationPage.GetSurnameError().Text);
             });
         }
 
         [Test]
+        [Category("IncorrectEmail")]
         public void IncorrectEmail()
         {
             SaveScreenshotOnTestFailure(() =>
@@ -59,11 +64,12 @@ namespace Framework.Tests
                     .ClickOnConditionsCheckBox()
                     .FillUserData(UserDataCreator.FillUser())
                     .ClickOnSubmitButton();
-                Assert.AreEqual("Введите правильный электронный адрес, пожалуйста", reservationPage.GetEmailError());
+                Assert.AreEqual("Введите правильный электронный адрес, пожалуйста", reservationPage.GetEmailError().Text);
             });
         }
 
         [Test]
+        [Category("TooLong")]
         public void TooLongName()
         {
             SaveScreenshotOnTestFailure(() =>
@@ -73,11 +79,12 @@ namespace Framework.Tests
                     .ClickOnConditionsCheckBox()
                     .FillUserData(UserDataCreator.FillUser())
                     .ClickOnSubmitButton();
-                Assert.AreEqual("Слишком длинное имя. Свяжитесь с нами по телефону", reservationPage.GetNameError());
+                Assert.AreEqual("Пожалуйста, введите правильное имя", reservationPage.GetNameError().Text);
             });
         }
 
         [Test]
+        [Category("TooLong")]
         public void TooLongSurname()
         {
             SaveScreenshotOnTestFailure(() =>
@@ -87,11 +94,12 @@ namespace Framework.Tests
                     .ClickOnConditionsCheckBox()
                     .FillUserData(UserDataCreator.FillUser())
                     .ClickOnSubmitButton();
-                Assert.AreEqual("Слишком длинная фамилия. Свяжитесь с нами по телефону", reservationPage.GetSurnameError());
+                Assert.AreEqual("Слишком длинное имя/фамилия. Свяжитесь с нами по телефону", reservationPage.GetSurnameError().Text);
             });
         }
 
         [Test]
+        [Category("DontChoose")]
         public void DontChooseGender()
         {
             SaveScreenshotOnTestFailure(() =>
@@ -101,11 +109,12 @@ namespace Framework.Tests
                     .ClickOnConditionsCheckBox()
                     .FillUserData(UserDataCreator.FillUser())
                     .ClickOnSubmitButton();
-                Assert.AreEqual("Пожалуйста, выберите", reservationPage.GetGenderError());
+                Assert.AreEqual("Пожалуйста, выберите", reservationPage.GetGenderError().Text);
             });
         }
 
         [Test]
+        [Category("DontChoose")]
         public void DontChooseName()
         {
             SaveScreenshotOnTestFailure(() =>
@@ -115,11 +124,12 @@ namespace Framework.Tests
                     .ClickOnConditionsCheckBox()
                     .FillUserData(UserDataCreator.FillUser())
                     .ClickOnSubmitButton();
-                Assert.AreEqual("Введите имя, пожалуйста", reservationPage.GetNameError());
+                Assert.AreEqual("Введите имя, пожалуйста", reservationPage.GetNameError().Text);
             });
         }
 
         [Test]
+        [Category("DontChoose")]
         public void DontChooseSurname()
         {
             SaveScreenshotOnTestFailure(() =>
@@ -129,11 +139,12 @@ namespace Framework.Tests
                     .ClickOnConditionsCheckBox()
                     .FillUserData(UserDataCreator.FillUser())
                     .ClickOnSubmitButton();
-                Assert.AreEqual("Введите фамилию, пожалуйста", reservationPage.GetSurnameError());
+                Assert.AreEqual("Введите фамилию, пожалуйста", reservationPage.GetSurnameError().Text);
             });
         }
 
         [Test]
+        [Category("DontChoose")]
         public void DontChooseEmail()
         {
             SaveScreenshotOnTestFailure(() =>
@@ -143,7 +154,7 @@ namespace Framework.Tests
                     .ClickOnConditionsCheckBox()
                     .FillUserData(UserDataCreator.FillUser())
                     .ClickOnSubmitButton();
-                Assert.AreEqual("Введите правильный электронный адрес, пожалуйста", reservationPage.GetEmailError());
+                Assert.AreEqual("Введите правильный электронный адрес, пожалуйста", reservationPage.GetEmailError().Text);
             });
         }
     }

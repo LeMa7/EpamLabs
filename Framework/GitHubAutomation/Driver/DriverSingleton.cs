@@ -25,14 +25,14 @@ namespace Framework.Driver
                 {
                     case "Chrome":
                         new DriverManager().SetUpDriver(new ChromeConfig());
-                        driver = new EdgeDriver();
+                        driver = new ChromeDriver();
                         break;
                     case "Firefox":
                         new DriverManager().SetUpDriver(new FirefoxConfig());
                         driver = new FirefoxDriver();
                         break;
                     default:
-                        new DriverManager().SetUpDriver(new EdgeConfig());
+                        new DriverManager().SetUpDriver(new ChromeConfig());
                         driver = new ChromeDriver();
                         break;
 
