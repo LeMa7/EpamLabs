@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using OpenQA.Selenium.Support.UI;
 using System;
+using System.Threading;
 
 namespace PageObject.PageObjects
 {
@@ -33,11 +34,13 @@ namespace PageObject.PageObjects
             WaitForElementToAppear(driver, 15, By.XPath("//*[@id='waavoiframe0']"));
             driver.SwitchTo().Frame(driver.FindElement(By.XPath("//*[@id='waavoiframe0']")));
             WaitForElementToAppear(driver, 15, By.XPath("//*[@id='conditions']"));
+            WaitForElementToAppear(driver, 15, By.XPath("//button[@class='btn btn-success btn-lg ladda-button']"));
+            Thread.Sleep(10000);
         }
 
         public IWebElement GetElement(string xPath)
         {
-            WaitForElementToAppear(driver, 15, By.XPath(xPath));
+            WaitForElementToAppear(driver, 20, By.XPath(xPath));
 
             return driver.FindElement(By.XPath(xPath));
         }
@@ -76,6 +79,7 @@ namespace PageObject.PageObjects
 
         public ReservationPage ClickOnConditionsCheckBox()
         {
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             conditionsCheckBox.Click();
             return this;
         }
@@ -90,6 +94,7 @@ namespace PageObject.PageObjects
 
         public ReservationPage ClickOnSubmitButton()
         {
+            Thread.Sleep(5000);
             submitButton.Click();
             return this;
         }

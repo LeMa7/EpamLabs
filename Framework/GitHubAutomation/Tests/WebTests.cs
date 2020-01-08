@@ -18,7 +18,7 @@ namespace Framework.Tests
                 Logger.Log.Info("Start \"RussianWordInNameInput\" test");
                 var reservationPage = new ReservationPage(Driver)
                     .ClickOnConditionsCheckBox()
-                    .FillUserData(UserDataCreator.FillUser())
+                    .FillUserData(UserDataCreator.FillUserForRussianWordsCategory())
                     .ClickOnSubmitButton();
                 Assert.AreEqual("Пожалуйста, введите правильное имя", reservationPage.GetNameError().Text);
             });
@@ -47,7 +47,7 @@ namespace Framework.Tests
                 Logger.Log.Info("Start \"RussianWordInSurnameInput\" test");
                 var reservationPage = new ReservationPage(Driver)
                     .ClickOnConditionsCheckBox()
-                    .FillUserData(UserDataCreator.FillUser())
+                    .FillUserData(UserDataCreator.FillUserForRussianWordsCategory())
                     .ClickOnSubmitButton();
                 Assert.AreEqual("Слишком длинное имя/фамилия. Свяжитесь с нами по телефону", reservationPage.GetSurnameError().Text);
             });
@@ -77,7 +77,7 @@ namespace Framework.Tests
                 Logger.Log.Info("Start \"TooLongName\" test");
                 var reservationPage = new ReservationPage(Driver)
                     .ClickOnConditionsCheckBox()
-                    .FillUserData(UserDataCreator.FillUser())
+                    .FillUserData(UserDataCreator.FillUserForTooLongCategory())
                     .ClickOnSubmitButton();
                 Assert.AreEqual("Пожалуйста, введите правильное имя", reservationPage.GetNameError().Text);
             });
@@ -92,7 +92,7 @@ namespace Framework.Tests
                 Logger.Log.Info("Start \"TooLongSurname\" test");
                 var reservationPage = new ReservationPage(Driver)
                     .ClickOnConditionsCheckBox()
-                    .FillUserData(UserDataCreator.FillUser())
+                    .FillUserData(UserDataCreator.FillUserForTooLongCategory())
                     .ClickOnSubmitButton();
                 Assert.AreEqual("Слишком длинное имя/фамилия. Свяжитесь с нами по телефону", reservationPage.GetSurnameError().Text);
             });
