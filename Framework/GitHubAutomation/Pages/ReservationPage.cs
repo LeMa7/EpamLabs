@@ -32,6 +32,7 @@ namespace PageObject.PageObjects
             PageFactory.InitElements(driver, this);
             WaitForElementToAppear(driver, 15, By.XPath("//*[@id='waavoiframe0']"));
             driver.SwitchTo().Frame(driver.FindElement(By.XPath("//*[@id='waavoiframe0']")));
+            WaitForElementToAppear(driver, 15, By.XPath("//*[@id='conditions']"));
         }
 
         public IWebElement GetElement(string xPath)
